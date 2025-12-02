@@ -1,0 +1,167 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+legend {
+    color: #ffffff;
+}
+
+hr {
+    border-color: #ffffff;
+}
+
+.blauwgrijs {
+    color: #001f3f;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    padding-top: 40px;
+}
+
+header h1 {
+    margin-top: 5rem;
+}
+
+.navbar {
+    background-color: #001f3f;
+    min-height: 60px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.95rem;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+    filter: brightness(0) invert(1);
+}
+
+.navbar .nav-link,
+.navbar .dropdown-item,
+.navbar .navbar-brand,
+.navbar .navbar-toggler-icon {
+    color: #ffffff !important;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar .form-control,
+.navbar .btn {
+    background-color: #001f3f;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.navbar .btn:hover {
+    background-color: #ffffff;
+    color: #001f3f;
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu {
+    background-color: #001f3f;
+    /* navyblauw */
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #001f3f;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-secondary {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #ffffff;
+    color: #001f3f;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+.form-control,
+.form-select {
+    background-color: #001f3f;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #ffffff;
+    box-shadow: none;
+}
+
+.socials i {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.socials i:hover {
+    color: #cccccc;
+}
+
+footer {
+    background-color: #001f3f;
+    color: #ffffff;
+}
+
+footer p,
+footer a,
+footer i {
+    color: #ffffff;
+}
+
+footer a:hover,
+footer i:hover {
+    color: #cccccc;
+}
+
+.card-img-top {
+    height: 200px;
+    /* vaste hoogte voor uniformiteit */
+    object-fit: cover;
+    /* vult de ruimte zonder vervorming */
+    width: 100%;
+    /* volledige breedte van de kaart */
+}
