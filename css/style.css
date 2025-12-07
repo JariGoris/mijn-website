@@ -159,6 +159,9 @@ footer i:hover {
 
 .card-img-top {
     height: 200px;
+    /* vaste hoogte voor uniformiteit */
     object-fit: cover;
+    /* vult de ruimte zonder vervorming */
     width: 100%;
+    /* volledige breedte van de kaart */
 }
