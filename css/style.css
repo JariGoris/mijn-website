@@ -165,3 +165,15 @@ footer i:hover {
     width: 100%;
     /* volledige breedte van de kaart */
 }
+
+.map-circle {
+    width: 300px;
+    /* zelfde grootte als foto */
+    height: 300px;
+    border-radius: 50%;
+    /* maakt het rond */
+    overflow: hidden;
+    /* verbergt alles buiten de cirkel */
+    margin: 0 auto;
+    /* centreert */
+}
